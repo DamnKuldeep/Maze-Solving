@@ -32,8 +32,6 @@ The maze variable at the end of the script is a NumPy array that represents the 
 
 The render() method of the MazeEnv class can be used to visualize the environment. It takes an argument mode which can be either 'human' or 'rgb_array'. If mode is 'human', it displays the maze as an image using the Matplotlib library. If mode is 'rgb_array', it returns a NumPy array that represents the maze as an RGB image.
 
-To train an agent to navigate through the maze, you would need to define a reinforcement learning algorithm that interacts with the environment by calling its reset() and step() methods, and uses the observations, rewards, and done signals provided by the environment to learn a policy. The cumulative_reward attribute of the environment can be used to keep track of the total reward obtained by the agent during an episode.
-
 To use the MazeEnv class, you would need to create an instance of the class by passing in the maze array and optionally the starting position of the agent. You can then call the reset() method to initialize the environment, and the step() method to perform an action and receive an observation, reward, and done signal. You can also call the render() method to visualize the environment.
 
 
@@ -61,3 +59,9 @@ Given a new position, returns the reward associated with moving to that position
 
 7. _get_done(new_pos)
 Given a new position, returns a boolean flag indicating whether the environment is in a terminal state.
+
+
+# The agent:-
+The agent gets trained using greedy policy , and updates the q table for max return associated with the state-action pair, this happens for 100 epsiodes and we finally get the optimal policy.
+
+after that we use the optimal policy and make the agent follow optimal policy and renders the maze environment on display which shows the course of action of agent to solve the maze.
