@@ -1,6 +1,9 @@
 import random
 import numpy as np
 import matplotlib.pyplot as plt
+import IPython.display as display
+import time
+from PIL import Image
 from gym import spaces
 
 class MazeEnv():
