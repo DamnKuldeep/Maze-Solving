@@ -12,9 +12,13 @@ MazeEnv is a Python class that represents a simple 2D maze environment. The envi
 The MazeEnv class requires the following packages to be installed:
 
 numpy
+
 matplotlib
+
 Pillow
+
 gym
+
 ipython
 
 
