@@ -19,6 +19,9 @@ The MazeEnv class requires the following packages to be installed:
 # MazeEnv
 MazeEnv is a Python class that represents a simple 2D maze environment. The environment is grid-based, with the grid represented as a 2D numpy array. The environment includes a start point, an end point, and walls that cannot be traversed.
 
+![alt text]([image_url](https://i.stack.imgur.com/nedrk.jpg))
+
+
 
 # Usage
 We have a MazeEnv class that defines the environment for a maze game. The class is a subclass of gym.Env which is the base class for all OpenAI gym environments. The MazeEnv has an observation space, an action space, and a set of methods that define how the environment behaves, such as reset() and step().
