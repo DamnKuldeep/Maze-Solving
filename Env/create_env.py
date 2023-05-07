@@ -95,7 +95,7 @@ class MazeEnv():
     def _get_done(self, new_pos):
         return new_pos == self.end
 
-    #defining the maze, 0 means free path and 1 means walls
+#defining the maze, 0 means free path and 1 means walls
 maze = np.array([[0, 0, 0, 0, 1, 0, 0, 1, 0, 0],
                   [0, 1, 0, 1, 1, 0, 0, 1, 1, 0],
                   [0, 1, 0, 0, 0, 0, 0, 0, 1, 1],
