@@ -1,4 +1,4 @@
-example input on site(without leaving a line between two lines) -
+example input on site -
 
 0, 0, 0, 0, 1, 0, 0, 1, 0, 0
 
