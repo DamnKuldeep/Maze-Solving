@@ -11,15 +11,15 @@ MazeEnv is a Python class that represents a simple 2D maze environment. The envi
 # Requirements
 The MazeEnv class requires the following packages to be installed:
 
-numpy
+1. numpy
 
-matplotlib
+2. matplotlib
 
-Pillow
+3. Pillow
 
-gym
+4. gym
 
-ipython
+5. ipython
 
 
 
@@ -40,23 +40,23 @@ To use the MazeEnv class, you would need to create an instance of the class by p
 
 # The MazeEnv class has the following methods:
 
-reset()
+1. reset()
 Resets the environment to its initial state and returns the initial observation.
 
-step(action)
+2. step(action)
 Performs the given action in the environment and returns the new observation, reward, done flag, and a dictionary of extra information.
 
-render(mode='human')
+3. render(mode='human')
 Renders the environment in the given mode. The available modes are 'human' and 'rgb_array'.
 
-_get_obs()
+4. _get_obs()
 Returns the current observation of the environment.
 
-_get_new_pos(action)
+5. _get_new_pos(action)
 Given an action, returns the new position of the agent if the action is taken.
 
-_get_reward(new_pos)
+6. _get_reward(new_pos)
 Given a new position, returns the reward associated with moving to that position.
 
-_get_done(new_pos)
+7. _get_done(new_pos)
 Given a new position, returns a boolean flag indicating whether the environment is in a terminal state.
