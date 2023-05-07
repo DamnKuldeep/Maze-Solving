@@ -1,13 +1,6 @@
 # Maze-Solving
 This is a model based on Reinforcement learning to solve Mazes, taking input as a numpy array or an image.
 
-
-
-# MazeEnv
-MazeEnv is a Python class that represents a simple 2D maze environment. The environment is grid-based, with the grid represented as a 2D numpy array. The environment includes a start point, an end point, and walls that cannot be traversed.
-
-
-
 # Requirements
 The MazeEnv class requires the following packages to be installed:
 
@@ -22,6 +15,9 @@ The MazeEnv class requires the following packages to be installed:
 5. ipython
 
 6. opencv-python-headless
+
+# MazeEnv
+MazeEnv is a Python class that represents a simple 2D maze environment. The environment is grid-based, with the grid represented as a 2D numpy array. The environment includes a start point, an end point, and walls that cannot be traversed.
 
 
 # Usage
