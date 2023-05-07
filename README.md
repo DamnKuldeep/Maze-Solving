@@ -21,7 +21,7 @@ The MazeEnv class requires the following packages to be installed:
 
 5. ipython
 
-
+6. opencv-python-headless
 
 
 # Usage
