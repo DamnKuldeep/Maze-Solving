@@ -19,7 +19,7 @@ The MazeEnv class requires the following packages to be installed:
 # MazeEnv
 MazeEnv is a Python class that represents a simple 2D maze environment. The environment is grid-based, with the grid represented as a 2D numpy array. The environment includes a start point, an end point, and walls that cannot be traversed.
 
-![alt text]([image_url](https://i.stack.imgur.com/nedrk.jpg))
+![alt text](https://i.stack.imgur.com/nedrk.jpg)
 
 
 
