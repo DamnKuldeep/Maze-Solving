@@ -1,5 +1,7 @@
 # Maze-Solving
 This is a model based on Reinforcement learning to solve Mazes, taking input as a numpy array or an image.
+Project by ArIES(Artificial Intelligence & Electronic Society)
+Team members - Kuldeep, Yashwanth, Anupriya, Ishaan Garg & Pranav 
 
 # Requirements
 The MazeEnv class requires the following packages to be installed:
@@ -65,3 +67,7 @@ Given a new position, returns a boolean flag indicating whether the environment 
 The agent gets trained using greedy policy , and updates the q table for max return associated with the state-action pair, this happens for 100 epsiodes and we finally get the optimal policy.
 
 after that we use the optimal policy and make the agent follow optimal policy and renders the maze environment on display which shows the course of action of agent to solve the maze.
+
+
+CLICK HERE TO SEE THE FINAL PROJECT: -
+  https://damnkuldeep-mazesolvingusingrl-mazesolver-gajetg.streamlit.app/
