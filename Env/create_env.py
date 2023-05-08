@@ -8,6 +8,7 @@ from PIL import Image
 from gym import spaces
 
 # creating the maze env
+
 class MazeEnv():
     
     def __init__(self, maze, start=(0, 0)):
