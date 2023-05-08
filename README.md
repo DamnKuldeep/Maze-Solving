@@ -1,6 +1,8 @@
 # Maze-Solving
 This is a model based on Reinforcement learning to solve Mazes, taking input as a numpy array or an image.
+
 Project by ArIES(Artificial Intelligence & Electronic Society)
+
 Team members - Kuldeep, Yashwanth, Anupriya, Ishaan Garg & Pranav 
 
 # Requirements
@@ -70,4 +72,5 @@ after that we use the optimal policy and make the agent follow optimal policy an
 
 
 CLICK HERE TO SEE THE FINAL PROJECT: -
+
   https://damnkuldeep-mazesolvingusingrl-mazesolver-gajetg.streamlit.app/
