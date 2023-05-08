@@ -3,7 +3,6 @@
 class agent:
     def __init__(self,env):
         self.q_table = np.zeros((env.observation_space.shape[0], env.observation_space.shape[1], len(env.action_space)))
-        
         alpha = 0.1  #learning rat
         gamma = 0.99  #discount factor
         epsilon = 1.0  #for greedy policy
@@ -11,31 +10,27 @@ class agent:
         min_epsilon = 0.01
         decay = 0.001
         self.env=env
-        
         num_episodes = 1000
         for i in range(num_episodes):
             state = env.reset()
             done = False
-            
             for j in range(200):
                 if np.random.uniform() < epsilon:  #exploring the env
                     action = random.choice(env.action_space)
                 else:
                     action = np.argmax(self.q_table[env.agent_pos[0], env.agent_pos[1], :])    #exploitation
-                    
-                
                 b,c =env.agent_pos[0], env.agent_pos[1]
                 next_state, reward, done, info = env.step(action)
                 if done:
                     break
-                
+                    
                 # Updating the q table
                 old_value = self.q_table[b , c, action]
                 next_max = np.max(self.q_table[env.agent_pos[0], env.agent_pos[1], :])
                 new_value = (1 - alpha) * old_value + alpha * (reward + gamma * next_max)
                 self.q_table[b , c, action] = new_value  
-                
                 state = next_state  # updating the new_state
+                
             # defining epsilon decay
             epsilon = min_epsilon + (max_epsilon - min_epsilon) * np.exp(-decay *i)
      
