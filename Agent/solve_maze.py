@@ -40,7 +40,6 @@ class agent:
             total_reward=0
             done = False
             i=0
-            mem = []
             self.plots= []
             while not done:
                 prev_pos = self.env.agent_pos
