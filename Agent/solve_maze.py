@@ -70,4 +70,4 @@ class agent:
 
 Agent=agent(env)  # calling the agent and training it for optimal policy
 
-Agent.solve_maze() # show thw agent solving the maze using optimal policy
+Agent.solve_maze() # show the agent solving the maze using optimal policy
